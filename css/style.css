@@ -1,0 +1,333 @@
+#horizontal{
+	margin-left:9%;
+	
+	display:inline-block;
+}
+
+#bottom_right1001{
+	position:absolute;
+	bottom:10px;
+	right:10px;
+}
+
+#bottom_left1001{
+	position:absolute;
+	bottom:10px;
+	left:10px;
+}
+
+#center1002{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom:40px;
+}
+
+
+
+#border{
+	position:relative;
+	width:800px;
+	height:800px;
+	
+	background-color: #fffdd0;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+html{
+	background-color:#101126;
+	
+}
+
+#gameHeader{
+	color:#91640e;
+	text-align:center;
+	font-size:30pt;
+	font-family: 'Pacifico', cursive;
+	padding-bottom:0px;
+	margin-bottom:0;
+}
+
+#leftGameHeader, #rightGameHeader{
+	display: block;
+	width: 300px;
+	height: 75px;
+}
+
+#leftGameHeader{
+	margin-top: -30px;
+	float: left;
+	margin-left: 75px;
+}
+
+#rightGameHeader{
+	
+	display: block;
+	
+	position:absolute;
+	right:3px;
+	top:3px;
+	
+	margin-left: 50px;
+	margin-right: 75px;
+	color:#91640e;
+	text-align:left;
+	font-size:12pt;
+	font-family: 'Pacifico', cursive;
+}
+
+
+#question{
+	
+	padding-top: 75px;
+	color:#91640e;
+	text-align:center;
+	font-size:20pt;
+	font-family: 'Pacifico', cursive;
+	padding-bottom:0px;
+	margin-bottom:0;
+} 
+
+#factbox{
+	height: 50px;
+	width: 800px;
+	display: block;
+	
+	padding-top: 75px;
+	color:#91640e;
+	text-align:center;
+	font-size:20pt;
+	font-family: 'Arial';
+	padding-bottom:0px;
+	margin-bottom:0;
+}
+
+#output1, #output2, #output3, #output4{
+	height: 200px;
+	width: 350px;
+	border: 5pt solid #91640e;
+	margin-top: 50px;
+	
+}
+
+#output1, #output3{
+	margin-left: 25px;
+	display: block;
+	float: left;
+}
+
+#output2, #output4{
+	margin-right: 25px;
+	display: block;
+	float: right;
+}
+
+#output1, #output2{
+	float: top;
+}
+
+#scoreLabel, #score, #timer{
+	display:block;
+}
+
+#scoreLabel{
+	padding-left: 20px;
+	float: left;
+}
+
+#score{
+	font-size: 20pt;
+	padding-left: 25px;
+	width: 50px;
+	margin: 10px;
+}
+
+#timer{
+	margin-top: -100px;
+	padding-right: 100px;
+	float: right;
+	float: top;
+}
+
+#transientBox{
+	display: block;
+	width: 800px;
+	margin-top: 0px;
+}
+
+#images{
+	display: block;
+	float: top;
+}
+
+#bigButton{
+	margin-top: 0px;
+	display: block;
+	width: 800px;
+	position:absolute;
+	bottom:3px;
+}
+
+h1{
+	color:#91640e;
+	text-align:center;
+	font-size:90pt;
+	font-family: 'Pacifico', cursive;
+	padding-bottom:0px;
+	margin-bottom:0;
+	
+}
+h2{
+	padding-top:0px;
+	margin-top:0;
+	color:#91640e;
+	text-align:center;
+	font-size:50pt;
+	font-family: 'Pacifico', cursive;
+	
+}
+#your_score{
+	color:#91640e;
+	padding-left:18%;
+}
+
+#factbox{
+	z-index: 2;
+	border: 2pt dashed #91640e;
+	display: none;
+	position: absolute;
+	height: 500px;
+	background-color: #fffdd0;
+}
+
+#factoverlay {
+	z-index:1;
+	display: none;
+	position: absolute;
+	height:1000px;
+	width: 2000px;
+	overflow: hidden;
+	background-color: rgba(0, 25, 120, 0.8);
+	
+}
+
+#Facts{
+	margin-top: -75px;
+}
+
+button{
+	color:#91640e;
+	background-color: #fffdd0;
+	border: 1pt solid #91640e;
+	border-radius: 5pt;
+	text-align:center;
+	font-size:10pt;
+	font-family: 'Pacifico', cursive;
+	padding-bottom:0px;
+	margin-bottom:0;
+}
+.button1{
+	text-align:center;
+	
+	padding:10px;
+	border-style: solid;
+    border-width: 5px;
+	border-radius: 25px;
+}
+a{
+	text-decoration:none;
+	color:#91640e;
+}
+#center007{
+	
+	margin-left:auto;
+	margin-right:auto;
+	width:630px;
+	
+}
+#play007{
+	margin-left:auto;
+	margin-right:auto;
+	width:300px;
+	font-size:40pt;
+}
+#instructions007{
+	margin-left:auto;
+	margin-right:auto;
+	width:400px;
+	font-size:40pt;
+}
+#high_score007{
+	margin-left:auto;
+	margin-right:auto;
+	width:450px;
+	font-size:40pt;
+}
+.diff007{
+	margin-left:auto;
+	margin-right:auto;
+	width:205px;
+	font-size:40pt;
+	display:inline-block;
+}
+#menu007{
+	margin-left:auto;
+	margin-right:auto;
+	width:400px;
+	font-size:22pt;
+	
+}
+a:hover { 
+    color: #101126;
+}
+#selectdiff{
+	text-align:center;
+	color:#91640e;
+	font-size:22pt;
+}
+#center008{
+	
+	
+	margin-right:auto;
+	width:400px;
+	
+}
+
+#nameInput, #displayData, .speech{
+	padding-top:0px;
+	margin-top:0;
+	color:#91640e;
+	text-align:center;
+	font-size:12pt;
+	font-family: 'Arial';
+	
+}
+
+.force-scrollable{
+	display: block;
+	width: 50%;
+	height: 30%;
+	margin-left: auto;
+	margin-right: auto;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+#aboutus {
+	margin-left:35px;
+	margin-right:35px;
+}
+
+.longborder{
+	position:relative;
+	width:800px;
+	height:1000px;
+	
+	background-color: #fffdd0;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
